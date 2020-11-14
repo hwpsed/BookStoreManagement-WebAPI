@@ -1,0 +1,29 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:51330",
+      "sslPort": 44357
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=blobfilesstorage;AccountKey=kuo3kuej5gJP1exm5Eo4zvpgdigJ20lS09ZdhFeHZ2ZXpfdH21E/08KMMH4X2al0TO4rk8wKRBQ2sYU5S9hg9Q==;EndpointSuffix=core.windows.net",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "BookStoreUI": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
